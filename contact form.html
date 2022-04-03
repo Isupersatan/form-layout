@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="heading">Contact Us</h1>
+        <fieldset class="name">
+            <legend>Name *</legend>
+        &nbsp;<em><input placeholder="first name" type="text" name="first name"required></em>
+           <em> <input placeholder="last name" type="text" name="lastname" required> </em>
+        </fieldset>
+         <fieldset class="gender">
+             <legend>Gender *</legend>
+            &nbsp;<em>  
+            Male <input type="radio" name="gender" id="gender" required> &nbsp;
+            Female <input type="radio" name="gender" id="gender"required>&nbsp;
+            Others <input type="radio"name="gender"id="gender"required>&nbsp;
+         </em>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+         <em>(choose your appropriate gender)</em>
+          </fieldset>
+          <p>Birth Date: * <input type="date" name="birth_date" id="birth_date" required></p>
+           <p>Address: <textarea placeholder="enter your address" name="address" id="address" cols="100" rows="10"></textarea></p>
+           <p>Pincode: * <input placeholder="123456" type="number" name="pincode" id="pincode" required></p>
+           <p>Phone: * <input placeholder="10 digit number" type="number" name="phone number" id="phone number" required>
+           <p>Email: * <input placeholder=".......@gmail.com" type="email" name="email" id="email" required></p>
+           <p>Message: <textarea placeholder="message to us" name="message" id="message" cols="100" rows="10"></textarea></p>
+           <input type="submit" value="Submit">
+
+    </form>
+    </div>
+</body>
+</html>
